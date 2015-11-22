@@ -11,6 +11,7 @@ namespace GitWebApplication.Controllers
         // GET: HelloWorld
         public ActionResult Index()
         {
+            var hallo = "super freundlich";
             return View();
         }
     }
